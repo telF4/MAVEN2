@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0c1fe49-29a6-43ac-917f-af2b5c58b088" name="变更" comment="oo">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/impdemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/it.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/j.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/o.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/thre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/top.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/ins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wen/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wen/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +19,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Administrator &lt;yli136347@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--tags" />
@@ -40,6 +37,17 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/com/o.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -63,22 +71,26 @@
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2KSO4KK3H8BqJBb1EfWg0PsxR0h" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Administrator/Desktop/maven",
+    "project.structure.last.edited": "库",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="应用程序.o">
+}]]></component>
+  <component name="RunManager" selected="应用程序.demo1">
     <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.com.demo" />
       <module name="MAVEN" />
@@ -144,12 +156,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="maven8" type="com.poratu.idea.plugins.tomcat" singleton="false">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="contextPath" value="" />
+      <option name="docBase" value="C:\Users\Administrator\Desktop\maven" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.0.5" />
+          <option name="path" value="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 10.0" />
+          <option name="version" value="10.0.5.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="LaunchBrowser.Before.Run" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Smart Tomcat.maven8" />
+      <item itemvalue="应用程序.demo" />
+      <item itemvalue="应用程序.demo1" />
+      <item itemvalue="应用程序.impdemo" />
+      <item itemvalue="应用程序.it" />
+      <item itemvalue="应用程序.o" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.o" />
         <item itemvalue="应用程序.demo1" />
-        <item itemvalue="应用程序.demo" />
         <item itemvalue="应用程序.impdemo" />
+        <item itemvalue="应用程序.o" />
+        <item itemvalue="应用程序.demo" />
         <item itemvalue="应用程序.it" />
       </list>
     </recent_temporary>
@@ -163,10 +218,43 @@
       <option name="presentableId" value="Default" />
       <updated>1673964326400</updated>
     </task>
+    <task id="LOCAL-00001" summary="oo">
+      <created>1674266180253</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674266180253</updated>
+    </task>
+    <task id="LOCAL-00002" summary="oo">
+      <created>1674266190957</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674266190957</updated>
+    </task>
+    <task id="LOCAL-00003" summary="oo">
+      <created>1674266210138</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674266210138</updated>
+    </task>
+    <task id="LOCAL-00004" summary="oo">
+      <created>1674266235859</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674266235859</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="oo" />
     <option name="LAST_COMMIT_MESSAGE" value="oo" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
