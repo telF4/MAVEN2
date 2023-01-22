@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0c1fe49-29a6-43ac-917f-af2b5c58b088" name="变更" comment="oo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/ins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wen/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wen/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/explode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/reset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/win.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/win.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wen/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wen/x.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wen/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wen/login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="package-info" />
+        <option value="Class" />
         <option value="HTML File" />
       </list>
     </option>
@@ -68,7 +74,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2KSO4KK3H8BqJBb1EfWg0PsxR0h" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -78,21 +84,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Administrator/Desktop/maven",
-    "project.structure.last.edited": "库",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/maven&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15625&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件&quot;: [
+      &quot;C++&quot;
+    ]
   }
-}]]></component>
-  <component name="RunManager" selected="应用程序.demo1">
-    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.com.demo" />
+}</component>
+  <component name="RunManager" selected="Smart Tomcat.maven8">
+    <configuration name="demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.com.demo1" />
       <module name="MAVEN" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.com.demo1" />
+    <configuration name="explode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.com.explode" />
       <module name="MAVEN" />
       <extension name="coverage">
         <pattern>
@@ -143,8 +156,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="o" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.com.o" />
+    <configuration name="reset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.com.reset" />
       <module name="MAVEN" />
       <extension name="coverage">
         <pattern>
@@ -152,16 +165,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="com.poratu.idea.plugins.tomcat">
-      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
-      <predefined_log_file enabled="true" id="Tomcat Access Log" />
-      <predefined_log_file id="Tomcat Catalina Log" />
-      <predefined_log_file id="Tomcat Manager Log" />
-      <predefined_log_file id="Tomcat Host Manager Log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,9 +177,6 @@
       <predefined_log_file id="Tomcat Host Manager Log" />
       <option name="contextPath" value="" />
       <option name="docBase" value="C:\Users\Administrator\Desktop\maven" />
-      <option name="envOptions">
-        <map />
-      </option>
       <option name="tomcatInfo">
         <TomcatInfo>
           <option name="name" value="Apache Tomcat/10.0.5" />
@@ -193,19 +193,19 @@
     </configuration>
     <list>
       <item itemvalue="Smart Tomcat.maven8" />
-      <item itemvalue="应用程序.demo" />
+      <item itemvalue="应用程序.explode" />
+      <item itemvalue="应用程序.reset" />
       <item itemvalue="应用程序.demo1" />
       <item itemvalue="应用程序.impdemo" />
       <item itemvalue="应用程序.it" />
-      <item itemvalue="应用程序.o" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="应用程序.demo1" />
+        <item itemvalue="应用程序.explode" />
         <item itemvalue="应用程序.impdemo" />
-        <item itemvalue="应用程序.o" />
-        <item itemvalue="应用程序.demo" />
         <item itemvalue="应用程序.it" />
+        <item itemvalue="应用程序.reset" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674266235859</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="oo">
+      <created>1674279156191</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674279156191</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
